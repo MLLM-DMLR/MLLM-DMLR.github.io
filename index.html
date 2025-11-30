@@ -241,10 +241,10 @@
                     </p>
                     <div class="bg-slate-50 rounded-xl border border-slate-100 overflow-hidden shadow-sm h-64 flex items-center justify-center group-hover:shadow-md transition-shadow">
                         <!-- [IMAGE_IMPORT] -->
-                        <img src="./images/analysis_visual.png" alt="Visual Dependency" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <img src="./images/fig2.jpg" alt="Visual Dependency" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                         <div class="hidden flex-col items-center justify-center text-slate-400">
                             <i class="fas fa-chart-bar mb-2"></i>
-                            <span class="text-xs font-mono">./images/analysis_visual.png</span>
+                            <span class="text-xs font-mono">./images/fig2.jpg</span>
                         </div>
                     </div>
                 </div>
@@ -260,10 +260,10 @@
                     </p>
                     <div class="bg-slate-50 rounded-xl border border-slate-100 overflow-hidden shadow-sm h-64 flex items-center justify-center group-hover:shadow-md transition-shadow">
                         <!-- [IMAGE_IMPORT] -->
-                        <img src="./images/analysis_confidence.png" alt="Confidence" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <img src="./images/fig3.jpg" alt="Confidence" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                         <div class="hidden flex-col items-center justify-center text-slate-400">
                             <i class="fas fa-chart-line mb-2"></i>
-                            <span class="text-xs font-mono">./images/analysis_confidence.png</span>
+                            <span class="text-xs font-mono">./images/fig3.png</span>
                         </div>
                     </div>
                 </div>
@@ -361,11 +361,11 @@
                 
                 <div class="slider-container" id="comparison-slider">
                     <!-- [IMAGE_IMPORT] Bottom -->
-                    <img src="./images/attention_dmlr.png" class="slider-image" alt="DMLR" onerror="this.src='https://via.placeholder.com/800x400/f8fafc/94a3b8?text=Missing:./images/attention_dmlr.png'">
+                    <img src="./images/visual.jpg" class="slider-image" alt="DMLR" onerror="this.src='https://via.placeholder.com/800x400/f8fafc/94a3b8?text=Missing:./images/attention_dmlr.png'">
                     
                     <!-- [IMAGE_IMPORT] Top -->
                     <div class="slider-overlay" id="slider-overlay">
-                        <img src="./images/attention_cot.png" style="width: 100vw; max-width: 984px; height: 100%; object-fit: contain;" alt="CoT" onerror="this.src='https://via.placeholder.com/800x400/e2e8f0/64748b?text=Missing:./images/attention_cot.png'">
+                        <img src="./images/visual.jpg" style="width: 100vw; max-width: 984px; height: 100%; object-fit: contain;" alt="CoT" onerror="this.src='https://via.placeholder.com/800x400/e2e8f0/64748b?text=Missing:./images/attention_cot.png'">
                     </div>
                     
                     <!-- Handle -->
@@ -374,22 +374,7 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- t-SNE -->
-            <div class="max-w-4xl mx-auto text-center">
-                <h3 class="text-2xl font-bold text-slate-900 mb-6">Structured Latent Space</h3>
-                <p class="text-slate-600 mb-10 max-w-2xl mx-auto text-lg">
-                    t-SNE visualization reveals that DMLR's optimized latent think tokens form a tight, structured cluster separate from raw text and image embeddings.
-                </p>
-                <div class="bg-white p-3 rounded-2xl shadow-card inline-block w-full border border-slate-100">
-                     <!-- [IMAGE_IMPORT] -->
-                     <img src="./images/tsne.png" class="w-full rounded-xl" alt="t-SNE" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                     <div class="hidden w-full h-96 flex-col items-center justify-center bg-slate-50 text-slate-400 rounded-xl">
-                         <span class="text-sm font-mono">./images/tsne.png</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </section>
 
     <!-- Citation -->
@@ -398,11 +383,7 @@
             <h2 class="text-xl font-bold text-slate-900 mb-6">Citation</h2>
             <div class="relative group">
                 <pre class="bg-slate-50 text-slate-700 p-8 rounded-xl overflow-x-auto text-sm font-mono border border-slate-200 shadow-inner">
-@article{DMLR2026,
-  title={Reasoning Within the Mind: Dynamic Multimodal Interleaving in Latent Space},
-  author={Liu, Chengzhi and Yang, Yuzhe and Fan, Yue and Wei, Qingyu and Liu, Sheng and Wang, Xin Eric},
-  journal={arXiv preprint},
-  year={2026}
+
 }</pre>
                 <button onclick="navigator.clipboard.writeText('@article{DMLR2026,\n  title={Reasoning Within the Mind: Dynamic Multimodal Interleaving in Latent Space},\n  author={Liu, Chengzhi and Yang, Yuzhe and Fan, Yue and Wei, Qingyu and Liu, Sheng and Wang, Xin Eric},\n  journal={arXiv preprint},\n  year={2026}\n}')" class="absolute top-6 right-6 bg-white hover:bg-slate-50 text-slate-600 px-4 py-2 rounded-md text-xs font-semibold transition border border-slate-200 shadow-sm opacity-0 group-hover:opacity-100">
                     Copy BibTeX
